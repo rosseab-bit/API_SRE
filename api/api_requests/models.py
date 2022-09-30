@@ -3,6 +3,8 @@ from unittest.util import _MAX_LENGTH
 from django.db import models
 
 # Create your models here.
+
+
 class DataFly(models.Model):
     fecha_i = models.CharField(max_length=150)
     vlo_i = models.IntegerField()
@@ -24,6 +26,3 @@ class DataFly(models.Model):
     siglades = models.CharField(max_length=200)
 
 
-
-
-# (fecha_i = "05092022", vlo_i=1, ori_i="buenos aires", des_i="cordoba", emp_i="aerolineas", fecha_o="05092022", vlo_o="n2m31nzx3", ori_o="bsas", des_o="co", emp_o="al", day_month=5, month_fly=9, year_fly=2022, day_fly=2, type_fly="N", enterprice="aerolineas argentina", siglaori="caba", siglades="jesus maria")
