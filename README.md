@@ -63,3 +63,6 @@
 
 # Base de datos:
 La base de datos se encuentra en el path api bajo el nombre db.sqlite3
+
+## Autor:
+[LinkedIn - Ricardo Benitez](https://www.linkedin.com/in/roseabdev/)
