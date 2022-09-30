@@ -55,3 +55,11 @@
 # Rutas creadas para un cliente.
 * /getdata: En esta ruta obtenemos todos los datos de la tabla.
 * /putdata: En esta ruta podemos insertar nuevos datos a la tabla de ser necesario.
+
+
+# Iniciar la API:
+1. Ingresar al path: api y levantar django [python manage.py runserver]
+2. Ingresar al path: api y levantar con Docker ejecutando /bin/bash installDocker.sh
+
+# Base de datos:
+La base de datos se encuentra en el path api bajo el nombre db.sqlite3
